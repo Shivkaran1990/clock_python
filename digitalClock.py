@@ -6,7 +6,7 @@ import time
 
 # Create the main window
 root = tk.Tk()
-root.title("Digital Clock Digital Clock in EST")
+root.title("Digital Clock")
 
 # Create and configure the clock label
 clock_label = Label(root, font=("Helvetica", 48), background="black", foreground="white")
