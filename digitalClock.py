@@ -10,7 +10,9 @@ def time_update():
 
 # Create the main window
 root = tk.Tk()
+
 root.title("Digital Clock")
+root.geometry("500x500")
 
 # Create and configure the clock label
 clock_label = Label(root, font=("Helvetica", 48), background="black", foreground="white")
